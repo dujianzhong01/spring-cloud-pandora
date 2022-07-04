@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: pandora-eureka-server
+
+server:
+  port: 8761
+
+
+eureka:
+  server:
+    enable-self-preservation: false #防止由于Eureka的机制导致Client被错误显示在线 仅在开发环境使用
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    register-with-eureka: false #不显示对server应用的注册

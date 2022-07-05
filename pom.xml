@@ -6,6 +6,7 @@
     <modules>
         <module>pandora-eureka-server</module>
         <module>pandora-config-server</module>
+        <module>pandora-service-shortlinks</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
